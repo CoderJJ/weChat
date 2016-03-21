@@ -15,6 +15,7 @@
 		18B364551C9FD8CC006DF483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B364531C9FD8CC006DF483 /* LaunchScreen.storyboard */; };
 		18B364601C9FD8CC006DF483 /* weChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3645F1C9FD8CC006DF483 /* weChatTests.m */; };
 		18B3646B1C9FD8CC006DF483 /* weChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3646A1C9FD8CC006DF483 /* weChatUITests.m */; };
+		18B3647A1C9FD933006DF483 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B364791C9FD933006DF483 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		18B364661C9FD8CC006DF483 /* weChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B3646A1C9FD8CC006DF483 /* weChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weChatUITests.m; sourceTree = "<group>"; };
 		18B3646C1C9FD8CC006DF483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B364781C9FD933006DF483 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		18B364791C9FD933006DF483 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				18B364491C9FD8CC006DF483 /* AppDelegate.m */,
 				18B3644B1C9FD8CC006DF483 /* ViewController.h */,
 				18B3644C1C9FD8CC006DF483 /* ViewController.m */,
+				18B364781C9FD933006DF483 /* Person.h */,
+				18B364791C9FD933006DF483 /* Person.m */,
 				18B3644E1C9FD8CC006DF483 /* Main.storyboard */,
 				18B364511C9FD8CC006DF483 /* Assets.xcassets */,
 				18B364531C9FD8CC006DF483 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				18B3644D1C9FD8CC006DF483 /* ViewController.m in Sources */,
 				18B3644A1C9FD8CC006DF483 /* AppDelegate.m in Sources */,
+				18B3647A1C9FD933006DF483 /* Person.m in Sources */,
 				18B364471C9FD8CC006DF483 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
